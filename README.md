@@ -1,6 +1,6 @@
 #  UMBRAI --- The Future of Private Swap on Solana
 
-<img src="https;//umbrai.dev/banner.png" width="100%" />
+<img src="public/banner.png" width="100%" />
 
 ------------------------------------------------------------------------
 
