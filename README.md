@@ -5,7 +5,7 @@
 ## 🚀 What is UMBRAI?
 
 **UMBRAI** is a next‑generation privacy‑focused DeFi platform built on
-**Solana**, powered by\
+**Solana**, powered by
 **Zero‑Knowledge Proofs (ZK‑SNARKs)** and an encrypted AI
 infrastructure.
 
