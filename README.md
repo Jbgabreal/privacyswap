@@ -51,7 +51,6 @@ REPL, SDK, and full REST API for zk‑powered app development.
     │   ├── components/
     │   ├── hooks/
     │   └── lib/
-    ├── docs/
     └── README.md
 
 ------------------------------------------------------------------------
