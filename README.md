@@ -1,17 +1,5 @@
 #  UMBRAI --- The Future of Private Swap on Solana
 
-::: {align="center"}
-`<img src="public/banner.png" width="140" />`{=html}
-```{=html}
-<h3>
-```
-`<strong>`{=html}Zero‑Knowledge • Privacy Swap • AI‑Powered
-Infrastructure`</strong>`{=html}
-```{=html}
-</h3>
-```
-:::
-
 ------------------------------------------------------------------------
 
 ## 🚀 What is UMBRAI?
@@ -72,23 +60,23 @@ REPL, SDK, and full REST API for zk‑powered app development.
 
 ### **Frontend**
 
--   Next.js 15\
--   TypeScript 5\
--   Tailwind CSS 4\
--   shadcn/ui\
--   Framer Motion\
+-   Next.js 15
+-   TypeScript 5
+-   Tailwind CSS 4
+-   shadcn/ui
+-   Framer Motion
 -   Lucide Icons
 
 ### **Backend**
 
--   REST API\
--   NextAuth.js\
+-   REST API
+-   NextAuth.js
 -   Prisma ORM
 
 ### **Blockchain**
 
--   Solana\
--   Rust Smart Contracts\
+-   Solana
+-   Rust Smart Contracts
 -   ZK‑SNARK Circuits
 
 ------------------------------------------------------------------------
@@ -116,8 +104,8 @@ npm start
 
 ### Smart Contract Audit
 
--   Independently audited\
--   zk‑circuits validated\
+-   Independently audited
+-   zk‑circuits validated
 -   Regular security reviews
 
 ------------------------------------------------------------------------
@@ -135,25 +123,9 @@ git push origin feature/new-feature
 
 ## 🌐 Community & Links
 
--   Website: https://umbrai.dev\
--   App: https://app.umbrai.dev\
--   X (Twitter): https://x.com/umbraitech\
+-   Website: https://umbrai.dev
+-   App: https://app.umbrai.dev
+-   X (Twitter): https://x.com/umbraitech
 
 ------------------------------------------------------------------------
 
-::: {align="center"}
-```{=html}
-<h3>
-```
-🚀 UMBRAI --- Privacy for Everyone, Built on Solana
-```{=html}
-</h3>
-```
-```{=html}
-<p>
-```
-© 2025 UMBRAI --- All rights reserved.
-```{=html}
-</p>
-```
-:::
