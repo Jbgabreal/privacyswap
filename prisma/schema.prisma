@@ -30,3 +30,21 @@ model Post {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
+
+model ExchangeOrder {
+  id             String   @id @default(cuid())
+  ffOrderId      String   @unique // FixedFloat order ID
+  fromCcy        String   // From currency code (e.g., "BTC")
+  toCcy          String   // To currency code (e.g., "ETH")
+  amountFrom     String   // Amount to send (as string to preserve precision)
+  rateType       String   // "fixed" or "float"
+  addressTo      String   // Destination address where user receives funds
+  depositAddress String?  // Deposit address from FixedFloat (where user sends)
+  status         String   @default("pending") // Order status
+  rawResponse    String   @default("{}") // JSON string of full API response
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@index([ffOrderId])
+  @@index([status])
+}

@@ -20,14 +20,20 @@ const Header = () => {
   const navItems = [
     { name: 'Home', href: '/' },
     { 
+      name: 'Swap', 
+      href: '/swap',
+      external: false,
+      icon: <Lock className="w-4 h-4" />
+    },
+    { 
       name: 'Privacy Swap', 
-      href: 'https://app.umbrai.dev',
+      href: 'https://app.privacyswap.dev',
       external: true,
       icon: <Lock className="w-4 h-4" />
     },
     { 
       name: 'REPL', 
-      href: 'https://repl.umbrai.dev',
+      href: 'https://repl.privacyswap.dev',
       external: true,
       icon: <Zap className="w-4 h-4" />
     },
@@ -59,8 +65,8 @@ const Header = () => {
               <div className="relative">
                 <div className="w-10 h-10 lg:w-12 lg:h-12 rounded-xl flex items-center justify-center shadow-lg shadow-emerald-500/25 overflow-hidden">
                   <img 
-                    src="/umbrai.png" 
-                    alt="UMBRAI" 
+                    src="/privacyswap.png" 
+                    alt="PrivacySwap" 
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -68,7 +74,7 @@ const Header = () => {
               </div>
               <div>
                 <h1 className="text-xl lg:text-2xl font-bold text-white">
-                  UMBRAI
+                  PrivacySwap
                 </h1>
                 <p className="text-xs lg:text-sm text-emerald-400 font-medium">
                   Privacy First

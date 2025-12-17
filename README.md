@@ -1,12 +1,12 @@
-#  UMBRAI --- The Future of Private Swap on Solana
+#  PrivacySwap --- The Future of Private Swap on Solana
 
 <img src="public/banner.png" width="100%" />
 
 ------------------------------------------------------------------------
 
-## 🚀 What is UMBRAI?
+## 🚀 What is PrivacySwap?
 
-**UMBRAI** is a next‑generation privacy‑focused DeFi platform built on
+**PrivacySwap** is a next‑generation privacy‑focused DeFi platform built on
 **Solana**, powered by
 **Zero‑Knowledge Proofs (ZK‑SNARKs)** and an encrypted AI
 infrastructure.
@@ -17,6 +17,10 @@ identities, and build privacy apps with a fully integrated SDK.
 ------------------------------------------------------------------------
 
 ## ✨ Core Features
+
+### 🔄 Instant Crypto Exchange
+
+Real-time cryptocurrency swapping powered by FixedFloat API with support for fixed and floating exchange rates.
 
 ### 🔒 Privacy Swap
 
@@ -43,7 +47,7 @@ REPL, SDK, and full REST API for zk‑powered app development.
 
 ## 📁 Project Structure
 
-    umbrai/
+    privacyswap/
     ├── prisma/
     ├── public/
     ├── mini-services/
@@ -73,6 +77,7 @@ REPL, SDK, and full REST API for zk‑powered app development.
 -   REST API
 -   NextAuth.js
 -   Prisma ORM
+-   FixedFloat API Integration
 
 ### **Blockchain**
 
@@ -85,19 +90,58 @@ REPL, SDK, and full REST API for zk‑powered app development.
 ## 🏁 Quick Start
 
 ``` bash
-git clone https://github.com/umbraitech/umbrai.git
-cd umbrai
+git clone https://github.com/Jbgabreal/privacyswap.git
+cd privacyswap
 
 npm install
+```
+
+### Environment Setup
+
+1. Copy the example environment file:
+``` bash
+cp .env.example .env
+```
+
+2. Edit `.env` and add your FixedFloat API credentials:
+```
+FIXEDFLOAT_API_KEY=your_api_key_here
+FIXEDFLOAT_API_SECRET=your_api_secret_here
+DATABASE_URL="file:./dev.db"
+```
+
+Get your API credentials from [FixedFloat](https://fixedfloat.com).
+
+### Database Setup
+
+Initialize the database:
+
+``` bash
+npm run db:generate
+npm run db:push
+```
+
+### Run Development Server
+
+``` bash
 npm run dev
 ```
 
-Build for production:
+The app will be available at `http://localhost:3000`
+
+### Build for Production
 
 ``` bash
 npm run build
 npm start
 ```
+
+### Database Commands
+
+- `npm run db:generate` - Generate Prisma Client
+- `npm run db:push` - Push schema changes to database (development)
+- `npm run db:migrate` - Create and run migrations
+- `npm run db:reset` - Reset database (⚠️ deletes all data)
 
 ------------------------------------------------------------------------
 
@@ -124,9 +168,9 @@ git push origin feature/new-feature
 
 ## 🌐 Community & Links
 
--   Website: https://umbrai.dev
--   App: https://app.umbrai.dev
--   X (Twitter): https://x.com/umbraitech
+-   Website: https://privacyswap.dev
+-   App: https://app.privacyswap.dev
+-   X (Twitter): https://x.com/PrivacySwap
 
 ------------------------------------------------------------------------
 

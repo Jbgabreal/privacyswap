@@ -72,7 +72,7 @@ export default function Privacy() {
                 </div>
                 <div className="space-y-4 text-gray-300">
                   <p>
-                    At UMBRAI, we are committed to minimizing data collection while providing our privacy-focused services:
+                    At PrivacySwap, we are committed to minimizing data collection while providing our privacy-focused services:
                   </p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
                     <li>Wallet addresses (only when interacting with our smart contracts)</li>
@@ -194,9 +194,9 @@ export default function Privacy() {
                     If you have any questions about this Privacy Policy or our data practices:
                   </p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
-                    <li>Email: office@umbrai.dev</li>
-                    <li>Twitter: x.com/UmbraiTech</li>
-                    <li>GitHub: github.com/umbraitech</li>
+                    <li>Email: office@privacyswap.dev</li>
+                    <li>Twitter: x.com/PrivacySwap</li>
+                    <li>GitHub: github.com/Jbgabreal/privacyswap</li>
                   </ul>
                   <p className="text-sm text-gray-400 mt-4">
                     Last updated: {new Date().toLocaleDateString()}

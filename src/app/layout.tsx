@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Orbitron, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
+import { Toaster as SonnerToaster } from "@/components/ui/sonner";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -21,24 +22,24 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "UMBRAI - Privacy-First Web3 Platform",
-  description: "Experience the future of decentralized privacy with UMBRAI. Zero-knowledge proofs, secure swaps, and private DeFi solutions.",
-  keywords: ["UMBRAI", "Web3", "Privacy", "ZK-SNARKs", "DeFi", "Zero Knowledge", "Crypto", "Blockchain", "Privacy Swap"],
-  authors: [{ name: "UMBRAI Team" }],
+  title: "PrivacySwap - Privacy-First Web3 Platform",
+  description: "Experience the future of decentralized privacy with PrivacySwap. Zero-knowledge proofs, secure swaps, and private DeFi solutions.",
+  keywords: ["PrivacySwap", "Web3", "Privacy", "ZK-SNARKs", "DeFi", "Zero Knowledge", "Crypto", "Blockchain", "Privacy Swap"],
+  authors: [{ name: "PrivacySwap Team" }],
   icons: {
-    icon: "/umbrai.png",
+    icon: "/privacyswap.png",
   },
   openGraph: {
-    title: "UMBRAI - Privacy-First Web3 Platform",
-    description: "Experience the future of decentralized privacy with UMBRAI. Zero-knowledge proofs, secure swaps, and private DeFi solutions.",
-    url: "https://umbrai.dev",
-    siteName: "UMBRAI",
+    title: "PrivacySwap - Privacy-First Web3 Platform",
+    description: "Experience the future of decentralized privacy with PrivacySwap. Zero-knowledge proofs, secure swaps, and private DeFi solutions.",
+    url: "https://privacyswap.dev",
+    siteName: "PrivacySwap",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "UMBRAI - Privacy-First Web3 Platform",
-    description: "Experience the future of decentralized privacy with UMBRAI. Zero-knowledge proofs, secure swaps, and private DeFi solutions.",
+    title: "PrivacySwap - Privacy-First Web3 Platform",
+    description: "Experience the future of decentralized privacy with PrivacySwap. Zero-knowledge proofs, secure swaps, and private DeFi solutions.",
   },
 };
 
@@ -54,6 +55,7 @@ export default function RootLayout({
       >
         {children}
         <Toaster />
+        <SonnerToaster />
       </body>
     </html>
   );

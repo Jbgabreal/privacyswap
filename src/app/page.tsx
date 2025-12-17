@@ -97,7 +97,7 @@ export default function Home() {
               </motion.div>
               
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-black mb-6">
-                <span className="gradient-text text-glow">UMBRAI</span>
+                <span className="gradient-text text-glow">PrivacySwap</span>
               </h1>
               
               <p className="text-xl md:text-2xl lg:text-3xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
@@ -107,7 +107,7 @@ export default function Home() {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <motion.a
-                  href="https://app.umbrai.dev"
+                  href="/swap"
                   className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-emerald-500 to-green-600 text-white font-semibold rounded-xl hover:from-emerald-600 hover:to-green-700 transition-all duration-200 glow-green"
                 >
                   <Lock className="w-5 h-5 mr-2" />
@@ -116,7 +116,7 @@ export default function Home() {
                 </motion.a>
                 
                 <motion.a
-                  href="https://repl.umbrai.dev"
+                  href="https://repl.privacyswap.dev"
                   className="inline-flex items-center px-8 py-4 glass-effect text-emerald-400 font-semibold rounded-xl hover:bg-white/10 transition-all duration-200 border border-emerald-500/30"
                 >
                   <Zap className="w-5 h-5 mr-2" />
@@ -139,7 +139,7 @@ export default function Home() {
               className="text-center mb-16"
             >
               <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                <span className="gradient-text">Why Choose UMBRAI?</span>
+                <span className="gradient-text">Why Choose PrivacySwap?</span>
               </h2>
               <p className="text-xl text-gray-400 max-w-3xl mx-auto">
                 Built for the privacy-conscious crypto investor who values security above all else
@@ -222,7 +222,7 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <motion.a
-                  href="https://app.umbrai.dev"
+                  href="/swap"
                   className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-emerald-500 to-green-600 text-white font-semibold rounded-xl hover:from-emerald-600 hover:to-green-700 transition-all duration-200 glow-green"
                 >
                   Get Started Now
@@ -251,19 +251,19 @@ export default function Home() {
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-10 h-10 rounded-xl flex items-center justify-center overflow-hidden">
                   <img 
-                    src="/umbrai.png" 
-                    alt="UMBRAI" 
+                    src="/privacyswap.png" 
+                    alt="PrivacySwap" 
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-2xl font-bold gradient-text">UMBRAI</h3>
+                <h3 className="text-2xl font-bold gradient-text">PrivacySwap</h3>
               </div>
               <p className="text-gray-400 mb-6 max-w-md">
                 The future of decentralized privacy. Built with zero-knowledge proofs for the security-conscious crypto investor.
               </p>
               <div className="flex space-x-4">
                 <motion.a
-                  href="https://github.com/umbraitech"
+                  href="https://github.com/Jbgabreal/privacyswap"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.1, y: -2 }}
@@ -272,7 +272,7 @@ export default function Home() {
                   <Github className="w-5 h-5" />
                 </motion.a>
                 <motion.a
-                  href="https://x.com/UmbraiTech"
+                  href="https://x.com/PrivacySwap"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.1, y: -2 }}
@@ -288,7 +288,7 @@ export default function Home() {
             <div>
               <h4 className="text-white font-semibold mb-4">Products</h4>
               <ul className="space-y-2">
-                <li><a href="https://app.umbrai.dev" className="text-gray-400 hover:text-emerald-400 transition-colors">Privacy Swap</a></li>
+                <li><a href="/swap" className="text-gray-400 hover:text-emerald-400 transition-colors">Privacy Swap</a></li>
                 <li><a href="https://repl.umbrai.dev" className="text-gray-400 hover:text-emerald-400 transition-colors">REPL</a></li>
               </ul>
             </div>
@@ -305,7 +305,7 @@ export default function Home() {
           
           <div className="border-t border-emerald-500/20 mt-8 pt-8 text-center">
             <p className="text-gray-400">
-              © 2025 UMBRAI. All rights reserved.
+              © 2025 PrivacySwap. All rights reserved.
             </p>
           </div>
         </div>

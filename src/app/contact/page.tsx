@@ -49,14 +49,14 @@ export default function Contact() {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email Us",
-      description: "office@umbrai.dev",
-      action: "mailto:office@umbrai.dev"
+      description: "office@privacyswap.dev",
+      action: "mailto:office@privacyswap.dev"
     },
     {
       icon: <MessageSquare className="w-6 h-6" />,
       title: "Live Chat",
       description: "Available 24/7 on X (formerly Twitter)",
-      action: "https://x.com/umbrai"
+      action: "https://x.com/PrivacySwap"
     },
     {
       icon: <Building className="w-6 h-6" />,
@@ -113,7 +113,7 @@ export default function Contact() {
               <span className="gradient-text">Contact Us</span>
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Have questions about UMBRAI? Want to learn more about our privacy-first solutions? 
+              Have questions about PrivacySwap? Want to learn more about our privacy-first solutions? 
               We're here to help you secure your crypto journey.
             </p>
           </motion.div>
@@ -275,13 +275,13 @@ export default function Contact() {
                 <h3 className="text-xl font-semibold text-white mb-4">Frequently Asked Questions</h3>
                 <div className="space-y-4">
                   <Card className="glass-effect border-emerald-500/20 p-4">
-                    <h4 className="font-medium text-white mb-2">What makes UMBRAI different?</h4>
+                    <h4 className="font-medium text-white mb-2">What makes PrivacySwap different?</h4>
                     <p className="text-gray-400 text-sm">
                       We use advanced zero-knowledge proofs to ensure complete transaction privacy while maintaining network integrity.
                     </p>
                   </Card>
                   <Card className="glass-effect border-emerald-500/20 p-4">
-                    <h4 className="font-medium text-white mb-2">Is UMBRAI open source?</h4>
+                    <h4 className="font-medium text-white mb-2">Is PrivacySwap open source?</h4>
                     <p className="text-gray-400 text-sm">
                       Yes, our codebase is fully transparent and auditable. Check our GitHub repository for more details.
                     </p>
@@ -289,7 +289,7 @@ export default function Contact() {
                   <Card className="glass-effect border-emerald-500/20 p-4">
                     <h4 className="font-medium text-white mb-2">How do I get started?</h4>
                     <p className="text-gray-400 text-sm">
-                      Simply visit our Privacy Swap platform or try our REPL to experience UMBRAI's features immediately.
+                      Simply visit our Privacy Swap platform or try our REPL to experience PrivacySwap's features immediately.
                     </p>
                   </Card>
                 </div>

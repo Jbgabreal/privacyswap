@@ -54,7 +54,7 @@ export default function Terms() {
               <span className="gradient-text">Terms of Service</span>
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              By using UMBRAI, you agree to these terms and conditions designed to protect both users and the ecosystem.
+              By using PrivacySwap, you agree to these terms and conditions designed to protect both users and the ecosystem.
             </p>
           </motion.div>
 
@@ -72,7 +72,7 @@ export default function Terms() {
                 </div>
                 <div className="space-y-4 text-gray-300">
                   <p>
-                    By accessing or using UMBRAI's services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.
+                    By accessing or using PrivacySwap's services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.
                   </p>
                   <p>
                     If you do not agree to these terms, you may not access or use our services.
@@ -121,7 +121,7 @@ export default function Terms() {
                 </div>
                 <div className="space-y-4 text-gray-300">
                   <p>
-                    UMBRAI provides privacy-focused decentralized finance services including:
+                    PrivacySwap provides privacy-focused decentralized finance services including:
                   </p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
                     <li>Privacy Swap - Anonymous token exchanges using ZK-SNARKs</li>
@@ -144,7 +144,7 @@ export default function Terms() {
                 <h2 className="text-2xl font-bold text-white mb-4">User Responsibilities</h2>
                 <div className="space-y-4 text-gray-300">
                   <p>
-                    As a user of UMBRAI, you agree to:
+                    As a user of PrivacySwap, you agree to:
                   </p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
                     <li>Use the services for lawful purposes only</li>
@@ -194,7 +194,7 @@ export default function Terms() {
                     To the fullest extent permitted by law:
                   </p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
-                    <li>UMBRAI is not liable for any loss of funds or assets</li>
+                    <li>PrivacySwap is not liable for any loss of funds or assets</li>
                     <li>We are not responsible for market losses or technical failures</li>
                     <li>Our total liability shall not exceed any fees you have paid</li>
                     <li>We are not liable for indirect, incidental, or consequential damages</li>
@@ -215,12 +215,12 @@ export default function Terms() {
                 <h2 className="text-2xl font-bold text-white mb-4">Intellectual Property</h2>
                 <div className="space-y-4 text-gray-300">
                   <p>
-                    UMBRAI's code, designs, and intellectual property are protected by applicable laws:
+                    PrivacySwap's code, designs, and intellectual property are protected by applicable laws:
                   </p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
                     <li>Our smart contracts are open-source for transparency</li>
                     <li>You may review but not copy our proprietary code</li>
-                    <li>The UMBRAI name and branding are trademarked</li>
+                    <li>The PrivacySwap name and branding are trademarked</li>
                     <li>Unauthorized use of our intellectual property is prohibited</li>
                   </ul>
                 </div>
@@ -281,8 +281,8 @@ export default function Terms() {
                   </p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
                     <li>Email: office@umbrai.dev</li>
-                    <li>Twitter: x.com/UmbraiTech</li>
-                    <li>GitHub: github.com/umbraitech</li>
+                    <li>Twitter: x.com/PrivacySwap</li>
+                    <li>GitHub: github.com/Jbgabreal/privacyswap</li>
                   </ul>
                   <p className="text-sm text-gray-400 mt-4">
                     Last updated: {new Date().toLocaleDateString()}

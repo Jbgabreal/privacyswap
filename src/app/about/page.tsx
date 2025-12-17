@@ -58,14 +58,14 @@ export default function About() {
             <div className="flex items-center justify-center mb-8">
               <div className="w-16 h-16 lg:w-20 lg:h-20 rounded-2xl flex items-center justify-center overflow-hidden shadow-lg shadow-emerald-500/25">
                 <img 
-                  src="/umbrai.png" 
-                  alt="UMBRAI" 
+                  src="/privacyswap.png" 
+                  alt="PrivacySwap" 
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
-              <span className="gradient-text">About UMBRAI</span>
+              <span className="gradient-text">About PrivacySwap</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto">
               The future of privacy-first DeFi on Solana blockchain
@@ -87,7 +87,7 @@ export default function About() {
                 <h2 className="text-3xl font-bold text-white">Our Mission</h2>
               </div>
               <p className="text-lg text-gray-300 leading-relaxed mb-8">
-                UMBRAI is dedicated to revolutionizing decentralized finance by providing complete privacy and security for Solana users. 
+                PrivacySwap is dedicated to revolutionizing decentralized finance by providing complete privacy and security for Solana users. 
                 We believe that financial privacy is a fundamental right, and our zero-knowledge proof technology 
                 ensures that your transactions remain completely confidential while maintaining the highest standards of security.
               </p>
@@ -164,7 +164,7 @@ export default function About() {
                 },
                 {
                   title: "Developer Tools",
-                  description: "Comprehensive SDKs and APIs for building on UMBRAI",
+                  description: "Comprehensive SDKs and APIs for building on PrivacySwap",
                   features: [
                     "TypeScript support",
                     "Comprehensive docs",
@@ -342,7 +342,7 @@ export default function About() {
                   },
                   {
                     title: "Growing Community",
-                    description: "10,000+ developers building on UMBRAI",
+                    description: "10,000+ developers building on PrivacySwap",
                     icon: <Users className="w-6 h-6 text-emerald-400" />
                   },
                   {
@@ -385,7 +385,7 @@ export default function About() {
               </h2>
               <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
                 Be part of the movement that's bringing true privacy to Solana DeFi. 
-                Start building, swapping, and innovating with UMBRAI today.
+                Start building, swapping, and innovating with PrivacySwap today.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
@@ -404,7 +404,7 @@ export default function About() {
                   href="/about"
                   className="bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-400 border border-emerald-500/30"
                 >
-                  <a href="https://github.com/umbraitech" className="flex items-center">
+                  <a href="https://github.com/Jbgabreal/privacyswap" className="flex items-center">
                     <Github className="w-5 h-5 mr-2" />
                     View Documentation
                     <ArrowRight className="w-5 h-5 ml-2" />
